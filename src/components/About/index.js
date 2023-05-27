@@ -27,7 +27,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I am very persistent in my profession as a developer. 
+                    I am very persistent in my profession as a developer. I have knowledgemnt about technologies like : HtmL, CSS, JavaScript, React.
                     I always want to learn more and face new challenges and projects.
                 </p>
                 <p>
