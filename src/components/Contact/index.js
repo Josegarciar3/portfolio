@@ -97,7 +97,7 @@ const Contact = () => {
                             <Popup>Jose lives here. :) </Popup>
                         </Marker>
                     </MapContainer>
-                    <img src={Mapa} alt='mapa-cupertino' />
+                    <img className='mapa-cup' src={Mapa} alt='mapa-cupertino' />
                 </div>                    
             </div>
             <Loader type='pacman' />
