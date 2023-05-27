@@ -111,3 +111,10 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
 }
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 320px;
+}

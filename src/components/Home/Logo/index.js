@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-
-import LogoS from '../../../assets/images/logo-jose2.png'
+import Foto from '../../../assets/images/jose.jpg'
+// import LogoS from '../../../assets/images/logo-jose2.png'
 import './index.scss'
 
 const Logo = () => {
@@ -15,7 +15,7 @@ const Logo = () => {
     gsap
       .timeline()
       .to(bgRef.current, {
-        duration: 1,
+        duration: 2,
         opacity: 1,
       })
       
@@ -35,11 +35,9 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <img
-        className="solid-logo"
-        ref={solidLogoRef}
-        src={LogoS}
-        alt="JavaScript,  Developer"
+      <img className='foto'
+        src={Foto}   
+        alt='web developer'
       />
 
      

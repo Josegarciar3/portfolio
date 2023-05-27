@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useRef, useState } from 'react'
 import  emailjs  from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import Mapa from '../../assets/images/mapa.png'
 
 const Contact = () => {
     const [letterClass  ] = useState('text-animate')
@@ -96,6 +97,7 @@ const Contact = () => {
                             <Popup>Jose lives here. :) </Popup>
                         </Marker>
                     </MapContainer>
+                    <img src={Mapa} alt='mapa-cupertino' />
                 </div>                    
             </div>
             <Loader type='pacman' />
